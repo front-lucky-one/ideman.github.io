@@ -1,0 +1,199 @@
+.container {
+    display: flex;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.block-left {
+    background-color: #e5e5e5;
+    padding: 60px 67px 0 57px;
+
+    @media screen and (max-width: 480px) {
+        padding: 10px 17px 0 17px;
+    }
+
+    .block-wrapp {
+        margin: 0 auto;
+    }
+
+    .logo {
+        color: #2a2a2a;
+        font-size: 36px;
+        font-family: 'Proxima Nova';
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 25px;
+        }
+    }
+
+    .section-title {
+        color: #2a2a2a;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 40px;
+
+        }
+
+
+    }
+
+    .section-subtitle {
+        margin-bottom: 40px;
+        color: #2a2a2a;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 20px;
+
+        }
+
+    }
+
+    .section-paragraph {
+        margin-bottom: 50px;
+        color: #2a2a2a;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .section-list {
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+    }
+
+    .section-items {
+        position: relative;
+        font-size: 16px;
+        line-height: 18px;
+        color: #2a2a2a;
+        margin-bottom: 9px;
+        padding-left: 25px;
+
+        &:before {
+            content: "";
+            width: 20px;
+            height: 2px;
+            position: absolute;
+            left: 0;
+            top: 11px;
+            background-color: black;
+
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 15px;
+
+        }
+    }
+
+    .section-btn {
+        background-color: #2a2a2a;
+        color: #ffffff;
+
+
+    }
+
+}
+
+.block-right {
+    background-color: #2a2a2a;
+    padding: 60px 57px 0 67px;
+    height: 100%;
+
+    @media screen and (max-width: 480px) {
+        padding: 30px 17px 0 17px;
+    }
+
+    .block-wrapp {
+        padding-top: 91px;
+        margin: 0 auto;
+
+        @media screen and (max-width: 768px) {
+            padding-top: 0;
+            padding-bottom: 20px;
+        }
+
+    }
+
+    .section-title {
+        color: #ffffff;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 40px;
+
+        }
+
+    }
+
+    .section-subtitle {
+        margin-bottom: 50px;
+        color: #ffffff;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 20px;
+
+        }
+
+    }
+
+    .section-paragraph {
+        color: #ffffff;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 768px) {
+
+            margin-bottom: 30px;
+        }
+    }
+
+    .section-btn {
+
+        background-color: #707070;
+        color: #2a2a2a;
+
+
+    }
+
+    .section-desk {
+        color: #ffffff;
+        opacity: 0.43;
+        font-size: 16px;
+    }
+}
